@@ -33,8 +33,6 @@
     src: url('../fonts/changa-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -46,6 +44,7 @@ body {
     line-height: 1.4;
     color: #011627;
     background-color: #fdfffc;
+    margin: 0;
 }
 
 img {
@@ -57,10 +56,6 @@ img {
 a {
     color: #e71d36;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 h1,
@@ -83,3 +78,86 @@ h2 {
 p {
     line-height: 1.5;
 }
+
+/******************************************
+               ENTÊTE DE PAGE
+******************************************/
+header {
+    background-color: #011627;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header .nom,
+header .metier {
+    color: #2ec4b6;
+    font-family: "Changa One", cursive;
+    font-weight: 400;
+    font-size: 1.75em;
+}
+
+header .metier {
+    font-size: 1em;
+    color: #e71d36;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+}
+
+header nav a {
+    font-weight: bold;
+    color: #fdfffc;
+    padding: 1em 0;
+}
+
+header nav a:hover,
+header nav a.actif {
+    color: #2ec4b6;
+}
+
+header nav li:first-of-type {
+    display: none;
+}
+
+/******************************************
+               PIED DE PAGE
+******************************************/
+footer {
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+footer ul img {
+    width: 50px;
+    filter: grayscale(1);
+    transition: all 700ms;
+}
+
+footer ul img:hover {
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
