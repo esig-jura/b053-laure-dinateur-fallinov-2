@@ -151,6 +151,12 @@ footer ul img:hover {
     filter: grayscale(0);
 }
 
+/******************************************
+           PAGE QUI SUIS-JE ?
+******************************************/
+.page-infos h1 {
+    text-align: center;
+}
 
 
 
