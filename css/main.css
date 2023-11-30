@@ -158,6 +158,19 @@ footer ul img:hover {
     text-align: center;
 }
 
+/*.page-infos .photo {*/
+/*    !*display: flex;*!*/
+/*    !*justify-content: center;*!*/
+/*    text-align: center;*/
+/*}*/
+
+.page-infos img {
+    border-radius: 50%;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
