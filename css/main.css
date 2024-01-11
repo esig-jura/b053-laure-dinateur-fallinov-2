@@ -290,6 +290,7 @@ footer ul li img:hover {
 }
 
 /***********************
+/***********************
 ****** PAGE INFOS ******
 ************************/
 
@@ -349,3 +350,4 @@ http://www.w3schools.com/css/css_attribute_selectors.asp
 .page-contact .contact-info li a[href*="facebook"] {
     background-image: url('../img/facebook.png');
 }
+
